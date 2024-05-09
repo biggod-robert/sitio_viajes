@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Eres Usuario</title>
+
+    <style>
+
+        @media screen and (max-width: 992px) {
+    
+            .btn-responsive {
+                margin-left: 20px; 
+                width: 50%; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6" style="position: relative;">
+                <div style="width: 100%; max-width: 1800px; height: 600px; background-color: #ADD8E6; border-radius: 20px; position: absolute; top: 75px; left: 50%; transform: translateX(-50%); z-index: 1; border: 1px solid orange; overflow: hidden;">
+                    <img src="./img/usu.png" style="width: 20%; height: auto; object-fit: cover; border-radius: 20px; float: left; margin-top: 20px; margin-left: 20px;" alt="Imagen">
+                    <input type="file" id="file" style="display: none;" accept="image/*"> 
+                    <button type="imagen" class="btn btn-primary btn-responsive" style="margin-right: 70%; margin-top: 20px; overflow: hidden;">Foto de Perfil</button>
+                    
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                        
+                            <div class="container" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: auto; background-color: #ADD8E6; padding: 20px;">
+                                <label type="button" class="btn btn-primary btn-responsive" style="width: 40%; background-color: #ADD8E6; color: blue; border: none; font-family: 'Eras Bold ITC', sans-serif; font-size: 40px; font-weight: bold; position: relative;">
+                                    <span style="position: absolute; top: -90px; margin-left: -110px;">Tú información</span>
+                                </label>
+                                <div style="display: flex; margin-top: 20px;">
+                                    <span style="margin-left: 40px; font-size: 30px; font-family: 'Gill Sans MT (Cuerpo)', sans-serif;">Nombres:</span>
+                                    <span style="margin-left: 20px; font-size: 30px; font-family: 'Gill Sans MT (Cuerpo)', sans-serif;">Laura</span>
+                                    <span style="margin-left: 20px; font-size: 30px; font-family: 'Gill Sans MT (Cuerpo)', sans-serif;">Camila</span>
+                                </div>
+                                <div style="display: flex; margin-top: 20px;">
+                                    <span style="margin-left: 40px; font-size: 30px; font-family: 'Gill Sans MT (Cuerpo)', sans-serif;">Apellidos:</span>
+                                    <span style="margin-left: 20px; font-size: 30px; font-family: 'Gill Sans MT (Cuerpo)', sans-serif;">Valencia</span>
+                                    <span style="margin-left: 20px; font-size: 30px; font-family: 'Gill Sans MT (Cuerpo)', sans-serif;">Gutiérrez</span>
+                                </div>
+                                <div style="display: flex; margin-top: 20px;">
+                                    <span style="margin-right: 40px; font-size: 30px; font-family: 'Gill Sans MT (Cuerpo)', sans-serif;">Teléfono:</span>
+                                    <span style="margin-right: 20px; font-size: 30px; font-family: 'Gill Sans MT (Cuerpo)', sans-serif;">320456987</span>
+                                </div>
+                                <div style="display: flex; margin-top: 20px;">
+                                    <span style="margin-right: 10px; font-size: 30px; font-family: 'Gill Sans MT (Cuerpo)', sans-serif;">Documento:</span>
+                                    <span style="margin-right: 20px; font-size: 30px; font-family: 'Gill Sans MT (Cuerpo)', sans-serif;">45886514</span>
+        
+                                </div>
+                                <form action="../homeValidado.html">
+                                    <button type="submit" class="btn btn-primary"
+                                        style="margin-right: -10px; font-size: 30px; font-family: 'Gill Sans MT (Cuerpo)', sans-serif; width: 298px; height: 56px; background-color: red; color: white; border-color: red;">
+                                        VALIDAR
+                                    </button>
+                                </form>                                                  
+                            </div>
+                        </div>
+                    </div>                 
+                </div>                    
+            </div>
+        </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

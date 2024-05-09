@@ -1,0 +1,61 @@
+.datos {
+    width: 700px;
+    height: 800px;
+    margin: 100px auto;
+    background-color: rgb(174, 221, 236);
+    background-image: url(./IMG/vix.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.8);
+    border: 1px solid orange;
+    color: rgb(255, 255, 255); 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.0);
+    
+}
+
+
+.datos img {
+    width: 600px;
+    height: 600px; 
+    left: 60%;
+    margin-right: 900px;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
+.datos .form-group label {
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.0);
+
+}
+a {
+
+    display: block;
+    width: 150px;
+    /* Ancho del enlace */
+    margin: 0 auto;
+    /* Centrado horizontal */
+    text-align: center;
+    background-color: #007bff;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    padding: 10px;
+    /* Espaciado interno */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    text-decoration: none;
+    /* Quita el subrayado predeterminado */
+    transition: background-color 0.3s;
+    /* Efecto de transición */
+}
+
+
+
+a:hover {
+    background-color: #0056b3;
+    /* Cambia el color de fondo al pasar el ratón */
+}

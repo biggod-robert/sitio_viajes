@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Túneles Naturales</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="contendor_menu">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="./imagenes/loguin.png" class="img-fluid" alt=""> </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link active" aria-current="page" href="../homeValidado.html">Inicio</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Hoteles
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./inicio_hoteles/Hotel 5N.html">Hotel Quinto nivel</a></li>
+                                    <li><a class="dropdown-item" href="./inicio_hoteles/hotel puerta de orion.html">Hotel puerta de orion</a></li>
+                                    <li><a class="dropdown-item" href="./inicio_hoteles/hotel Tepuy.html">Hotel Tepuy</a></li>
+                                    <li><a class="dropdown-item" href="./inicio_hoteles/Hotel las palmas.html">Hotel Las Palmas</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Sitios Turisticos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../inicio_hoteles/Hotel 5N.html">Hotel Quinto nivel</a></li>
+                                    <li><a class="dropdown-item" href="../inicio_hoteles/hotel puerta de orion.html">Hotel puerta de orion</a></li>
+                                    <li><a class="dropdown-item" href="../inicio_hoteles/hotel Tepuy.html">Hotel Tepuy</a></li>
+                                    <li><a class="dropdown-item" href="../inicio_hoteles/Hotel las palmas.html">Hotel Las Palmas</a></li>
+                                </ul>
+                            </li>
+                            <a class="nav-link" href="./restaurantes/Restaurante_Catumare_Comidas_Amazónicas.html">Restaurantes</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="contenedorsitios">
+        <div class="textCentral">
+            <div class="container-lg">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-6">
+                        <br><br><br><br><br><br><br>
+                        <label for="texto">
+                            <h1><span style="color: yellow;">Pinturas Rupestres</span></h1>
+                        </label>
+                        <h5>
+                            <label for="texto" style="color: white;">25 de marzo de 2021. Escondido en la selva colombiana, se encuentra el arte
+                                rupestre más inaccesible del mundo. En la Serranía de La Lindosa, departamento de Guaviare, en el extremo norte de
+                                la Amazonía colombiana, se hallan pinturas rupestres hechas en Sudamérica hace alrededor de 8.000 - 12.000 años.
+                            </label>
+                        </h5>
+                    </div>
+                    <div class="col-md-6">
+                        <br><br><br><br><br><br><br>
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./imagenes/pinturas.jpg" class="d-block w-100" alt="tuneles">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./imagenes/pintura2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    <div class="contenedor-verde-claro" style="background-color: #b5ffff; padding: 20px; border-radius: 10px;">
+        <div class="contenedor-formulario">
+            <br>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Correo electrónico</label>
+            </div>
+            <div class="form-floating" style="margin-bottom: 10px;">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="correo">Comentarios</label>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+</html>
